@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+table.table-1 {
+    table-layout: fixed;
+    width: 750px;
+    border: 5px #138e8a solid;
+}
+tr.tr-1 {
+    height: 55px;
+}
+/* Çizelgenin ikinci tür satırları için css stili */
+tr.tr-2 {
+    text-align: center;
+    height: 85px;
+}
+td {
+    border: solid 2px #c4718f;
+}
+td.td-1 {
+    text-align: center;
+}
+button.button-1 {
+    width: 220px;
+    color: #4f4f4f;
+    font-weight: 800;
+}
+button.button-2 {
+    background-color: #abe2e0;
+    width: 300px;;
+}

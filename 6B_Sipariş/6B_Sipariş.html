@@ -1,0 +1,47 @@
+<!DOCTYPE <html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> 6.1 - Sipariş Denetim Sistemi 1.0 </title>
+    <script type="text/javascript" src="6B_Sipariş.js"></script>
+    <link rel="stylesheet" href="6B_Sipariş.css">
+</head>
+
+<body onload="sayfaYukle();">
+    <table class="table-1">
+        <tr>
+            <td>
+                Ürün
+            </td>
+            <td>
+                <input id="input-1" type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Sipariş Adedi
+            </td>
+            <td>
+                <input id="input-2" type="text">
+            </td>
+        <tr class="tr-1">
+            <td class="td-1">
+                <button class="button-1" onclick="adetSiparis('ADET');"> ... Adet </button>
+            </td>
+            <td class="td-1">
+                <button class="button-1" onclick=" adetSiparis('ON');"> 10 Adet </button>
+            </td>
+        </tr>
+        <tr class="tr-1">
+            <td colspan="2">
+                <p id="p-1"> </p>
+            </td>
+        </tr>
+        <tr  class="tr-2">
+            <td colspan="2">
+                <button id="button-3" class="button-2" onclick="temizle();"> Formu Temizle </button>
+            </td>
+        </tr>
+     </table>
+
+</body>

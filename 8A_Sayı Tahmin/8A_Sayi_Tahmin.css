@@ -1,0 +1,32 @@
+@charset "UTF-8";
+table.table-1 {
+    width: 600px;
+    table-layout: auto;
+    border: solid #363e95  4px;
+}
+tr.tr-1 {
+    height: 80px;
+    vertical-align: middle;
+}
+td.td-1 {
+    border: dotted #b7b058 3px;
+    vertical-align: middle; 
+}
+td.td-2 {
+    text-align: center;
+}
+button.button-1 {
+    color: rgb(240, 226, 238);
+    background-color: rgb(134, 63, 144);
+    height: 45px;
+    width: 60%;
+}
+div.div-1 {
+    font: oblique;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(red, green, blue);
+}
+body {
+    background-color: rgb(236, 215, 250);
+}
